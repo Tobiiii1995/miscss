@@ -1,0 +1,37 @@
+<style>
+* {
+	font-family: 'Water Brush', cursive;
+	font-weight:100;
+	font-size: 25px;
+}
+body {
+	background:red;
+	position: relative
+	z-index:1;
+}
+.cont {
+	margin: 10px 10px;
+}
+.cont__2 {
+	padding: 10px 10px;
+}
+.cont {
+	left:0
+	top:0
+	down:0
+	right:0
+	margin-top:50px;
+	display: block;
+	width:500px;
+	position:absolute;
+	height:450px;
+	z-index:2;
+	border:2px solid black;
+	overflow: auto;
+	background:grey;
+}
+.cont__2 img {
+	float: right;
+	height:50%;
+	border: 2px solid black;
+}
